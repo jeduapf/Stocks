@@ -103,6 +103,7 @@ def main():
 
     # TODO: Clean NaNs by interpolating if sequence of NaNs are smaller than D days and if it's bigger, get data from the most recent 
     # date where the smallest NaN sequence is D days
+    # https://stackoverflow.com/questions/29007830/identifying-consecutive-nans-with-pandas
 
     # TODO: For correlation matrix, is it necessary to take out NaNs? Maybe can just do the correlation first and it will only get the 
     # correct correlation between the exiwting days... Just set NaNs to zero? Must interpolate small NaN days first? 
